@@ -1,11 +1,12 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./PricingPage.css";
+
 import {
 	faChartLine,
 	faCheck,
-	faFaceSmile,
 	faHeadset,
 } from "@fortawesome/free-solid-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import vscode from "../../../assets/vscode.png";
 import github from "../../../assets/github.png";

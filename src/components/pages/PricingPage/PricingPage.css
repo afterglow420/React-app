@@ -92,12 +92,29 @@
 	background-color: #171e25;
 	height: 100px !important;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .brand-logo {
 	width: 50px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.brand-logo:hover {
+	transform: scale(1.2);
+}
+
+@keyframes pulsate {
+	0% {
+		box-shadow: 0 6px 20px -6px #524add;
+	}
+	75% {
+		box-shadow: 0 6px 20px -6px #3dd875;
+	}
+	100% {
+		box-shadow: 0 6px 20px -6px #df6a0b;
+	}
 }
 
 .sticky-brand-div {
@@ -111,10 +128,14 @@
 	width: 350px;
 	margin: auto;
 	z-index: 1000;
-	box-shadow: 0 6px 20px -6px white;
 	color: white;
+	transition: transform 0.3s ease-in-out;
+	animation: pulsate 2s infinite;
 }
 
+.sticky-brand-div:hover {
+	box-shadow: 0 6px 20px -6px #c96e05;
+}
 
 #blue-span {
 	background-image: linear-gradient(351deg, #31b3ec 23%, #524add 87%);
