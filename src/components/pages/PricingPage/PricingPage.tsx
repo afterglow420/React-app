@@ -272,6 +272,9 @@ function PricingPage() {
 					</Col>
 				</Row>
 			</Container>
+			<Container>
+				Alt Div
+			</Container>
 		</>
 	);
 }
