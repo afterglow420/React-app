@@ -1,0 +1,37 @@
+.login-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: lightgray;
+}
+
+h5 {
+    text-align: center;
+}
+
+.animated-circle {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #f00;
+	left: 0;
+	animation: slide-in-out 5s infinite;
+}
+
+@keyframes slide-in-out {
+	25% {
+		/* Start from the left */
+		left: 0px;
+	}
+	50%, 75% {
+		/* Move to the right and pause */
+		left: calc(100% - 100px);
+	}
+	100% {
+		/* Move back to the left */
+		left: 0px;
+	}
+}
+
