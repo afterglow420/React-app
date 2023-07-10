@@ -168,7 +168,7 @@ function PricingPage() {
 								<Card.Title>
 									<h1 id="good">Legendary </h1>
 									<h1 id="orange-developer">Developer</h1>
-									<h1 id="orange-pricing">$1.99/mo</h1>
+									<h1 id="orange-pricing">$7.99/mo</h1>
 									<small className="small-info">
 										Cancel anytime &middot; Billed Monthly
 									</small>
